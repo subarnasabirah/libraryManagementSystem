@@ -41,7 +41,7 @@ router.get('/:bookslistId', async (req, res) => {
   }
 });
 
-//Update a Post
+//Update  Bookslist
 
 router.patch('/:booksId', async (req, res) => {
    try {
@@ -55,7 +55,7 @@ router.patch('/:booksId', async (req, res) => {
    }
 });
 
-//Delete Post
+//Delete Bookslist
 
 router.delete('/:booksId', async (req, res) => {
    try {
